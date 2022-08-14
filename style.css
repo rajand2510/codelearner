@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    width: cover;
+    height: 100px;
+    margin: auto;
+    background-color: orange;
+}
+
+.icon{
+    width: 500px;
+    float: left;
+    height: 100px;
+}
+
+.logo{
+    color:darkgrey ;
+    height: 100;
+    width: 200;
+    font-size: 45px;
+    margin-left: 10px;
+    
+}
+.logo1{
+    color:black ;
+    height: 100;
+    width: 200;
+    font-size: 25px; 
+    margin-left: 10px;
+}
+
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 27px;
+    font-size: 17px;
+}
+
+ul li a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: black;
+}
+
+.image{
+    margin-top: 100px;
+}
+.content{
+
+    margin-top: 200px;
+    margin-left: 210px;
+    font-size: 33px;
+    font-family:arial;
+}
+
+.text{
+    margin-top: 40px;
+    margin-left: 240px;
+    font-size: 55px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:cornflowerblue;
+}
+
+.text :hover{
+    color: rgb(48, 115, 239);
+}
+
+
+.register{
+    margin-left: 400px;
+    margin-top: 60px;
+    list-style-type: none;
+    border: none;
+    width: 170px;
+    height: 50px;
+
+}
+.register ul{
+    list-style: none;
+    font-size: 17px;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(255, 140, 0);
+    border-radius: 10px;
+}
+.register ul a{
+    text-decoration:none;
+    color: white;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+   
+}
+.register :hover{
+    color:rgb(159, 248, 229);
+   
+}
+
+
+
+
+
+.about{
+    margin-right: 500px;
+  margin-top: 100px;
+  font-size: 30px;
+  color:cornflowerblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+
+.about :hover{
+    color: rgb(48, 115, 239);
+}
+
+
+.detail{
+  
+    margin-bottom:300px;
+}
+
+.detail pre{
+    margin-left: 600px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image_a{
+     margin-top: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    width: cover;
+    height: 150px;
+    margin: auto;
+    background-color: orange;
+}
+
+.footer .contact{
+   margin-left: 30px;
+   margin-top: 300px;
+}
+
+.footer .contact ul{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(0, 0, 0);
+    
+}
+
+.footer .info{
+    margin-left: 31px;
+    margin-top: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+
